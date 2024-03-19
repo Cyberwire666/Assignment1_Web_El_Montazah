@@ -1,0 +1,133 @@
+
+  body{
+    background-color:#D3C5E5;
+    
+  }
+h1{
+  
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: #735DA5;
+}
+h2{
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #735DA5;
+text-align: center;
+}
+h3{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #735DA5;
+  text-align: center;
+  }
+section{
+  background-color: #D3C5E5;
+}
+p{
+text-align: center;
+text-rendering: auto ;
+
+}
+.map_container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.map_container iframe{
+  max-width: 100%S;
+}
+
+nav {
+  display: inline;
+}
+
+nav a {
+  font-size: 18px;
+  color: #333; /* Dark color for links */
+  text-decoration: none; /* Remove underline */
+  margin-right: 20px; /* Adjust spacing between links */
+  padding: 5px 10px; /* Add padding for better clickability */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  background-color: #D3C5E5; /* Light background color on hover */
+  color: #735DA5; /* Darken text color on hover */
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: #735DA5;  
+  gap: 10px;
+  justify-content:space-around;
+}
+
+.image-container img {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.image-container img:hover {
+  transform: scale(1.6); /* Scale up the image on hover */
+}
+
+.video-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.video-container iframe{
+  max-width: 100%;
+}
+
+.video-container iframe:hover{
+  transform: scale(1.7);
+}
+
+ul {
+  list-style:circle;
+  counter-reset: my-counter; /* Reset the counter */
+}
+
+ul li {
+  counter-increment: my-counter; /* Increment the counter */
+  display: flex;
+  align-items: center; /* Center the list item contents vertically */
+  margin-bottom: 10px; /* Add spacing between list items */
+  justify-content: center;
+}
+
+ul li::before {
+  content: counter(my-counter); /* Use the counter value as the content */
+  color: #735DA5;
+  font-weight:1000; /* Optional: make the counter bold */
+  margin-right: 10px; /* Optional: add spacing between counter and text */
+}
+
+.table_names{
+  display: flex;
+  justify-content: center;
+}
+
+
+header {
+  padding: 6px; /* Add padding for spacing */
+  background-color: #fff; /* Light background color for header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.about_us{
+  margin-left: 1100px;
+}
+
+.welcome {
+  margin-top: 0; /* Remove default margin for the heading */
+}
